@@ -52,6 +52,42 @@
 \microtoc
 \newpage
 
+\section{Basics of Group Theory}
+
+\begin{definition}
+  Group: A non-empty set $G$ with a binary operation (denoted by $\cdot$) is a group if the following three properties are satisfied:
+
+\begin{itemize}
+  \item [] \textbf{(Associativity)}: For all $a,b,c \in G$,  \[(a \cdot b) \cdot c = a \cdot (b \cdot c) \]
+
+  \item [] \textbf{(Identity)}: There exists $e \in G$ s.t. \[a \cdot e = e \cdot a = a \]
+
+  \item [] \textbf{(Inverse)}: For any $a \in G$, there exists $b \in G$ s.t.
+    \[a \cdot b = b \cdot a = e \] and $b$ is denoted by $a^{-1}$.
+
+\end{itemize}
+
+\end{definition}
+
+
+\begin{definition}
+  \textbf{Abelian Group}: A commutative group under an operation with the property that for any elements $a,b \in G$, $a \cdot b = b \cdot a$. Examples are $\mathbb{R}^n$ with $+$ and $\mathbb{Z}^n$ with $+$.
+\end{definition}
+
+
+\begin{definition}
+  Let $G$ be a group. A subset $H$ in $G$ is a \textbf{subgroup} if $H$ is also a group under the binary operation of $G$, denoted by $H < G$.
+\end{definition}
+
+\begin{definition}
+  The \textbf{direct product} $G_1 \times G_2$ of groups $G_1$ and $G_2$ is $\{(g_1, g_2) \ | \ g_1 \in G_1, g_2 \in G_2 \}$ with operation 
+  \[ (g_1, g_2) \cdot (h_1, h_2) = (g_1 \cdot h_1, g_2 \cdot h_2) \]
+\end{definition}
+
+
+\section{Machine Learning}
+
+
 
 % main content
 
